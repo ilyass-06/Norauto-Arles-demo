@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Norauto Arles 13200</title>
+  <meta name="description" content="Contactez Norauto Arles 13200 pour votre entretien automobile." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="header glass">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <span class="brand-main">Norauto</span>
+        <span class="brand-sub">Arles 13200</span>
+      </a>
+
+      <nav class="navbar">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="reservation.html">Réservation</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+
+      <button class="btn btn-primary open-chat">Parler au chatbot</button>
+    </div>
+  </header>
+
+  <main class="inner-page">
+    <section class="page-hero small-hero">
+      <div class="container reveal">
+        <span class="eyebrow">Contact & assistance</span>
+        <h1>Entrer en relation avec l’équipe</h1>
+        <p>Une page de contact claire, rassurante et prête à recevoir les demandes clients.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-card reveal">
+          <h2>Informations</h2>
+          <div class="contact-line"><strong>Adresse :</strong> Arles, 13200, France</div>
+          <div class="contact-line"><strong>Téléphone :</strong> 04 00 00 00 00</div>
+          <div class="contact-line"><strong>Email :</strong> contact@norauto-arles.fr</div>
+          <div class="contact-line"><strong>Horaires :</strong> Lundi - Samedi : 08h30 - 19h00</div>
+        </div>
+
+        <form class="contact-card reveal delay-1">
+          <h2>Demande d’assistance</h2>
+          <input type="text" placeholder="Nom complet" required>
+          <input type="email" placeholder="Adresse email" required>
+          <input type="tel" placeholder="Téléphone" required>
+          <textarea rows="6" placeholder="Décrivez votre besoin" required></textarea>
+          <button type="submit" class="btn btn-primary">Envoyer la demande</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Norauto Arles 13200</h4>
+        <p>Support client, prise de contact assistée et expérience moderne.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="reservation.html">Réservation</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chatbot" id="chatbot">
+    <div class="chatbot-header">
+      <div>
+        <strong>Assistant Norauto Arles</strong>
+        <p>Réservation assistée</p>
+      </div>
+      <button class="chat-close" id="closeChat">×</button>
+    </div>
+
+    <div class="chatbot-body" id="chatBody">
+      <div class="bot-message">Bonjour 👋 Je peux vous orienter avant votre prise de contact.</div>
+      <div class="chat-options">
+        <button class="chat-option" data-choice="Demande de rendez-vous">Demande de rendez-vous</button>
+        <button class="chat-option" data-choice="Demande d'information">Demande d'information</button>
+      </div>
+    </div>
+
+    <div class="chatbot-footer">
+      <a id="assistanceLink" class="btn btn-primary wide" href="mailto:contact@norauto-arles.fr">Contacter l’assistance</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
