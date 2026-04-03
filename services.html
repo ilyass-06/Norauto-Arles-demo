@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Norauto Arles 13200</title>
+  <meta name="description" content="Découvrez les services proposés par Norauto Arles 13200." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="header glass">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <span class="brand-main">Norauto</span>
+        <span class="brand-sub">Arles 13200</span>
+      </a>
+
+      <nav class="navbar">
+        <a href="index.html">Accueil</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="reservation.html">Réservation</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <button class="btn btn-primary open-chat">Prendre rendez-vous</button>
+    </div>
+  </header>
+
+  <main class="inner-page">
+    <section class="page-hero small-hero">
+      <div class="container reveal">
+        <span class="eyebrow">Prestations atelier</span>
+        <h1>Nos services automobiles à Arles</h1>
+        <p>Un parcours clair, des offres compréhensibles et une expérience rassurante à chaque étape.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container detailed-services">
+        <article class="detail-card reveal">
+          <h2>Pneus</h2>
+          <p>Montage, équilibrage, permutation saisonnière, géométrie visuelle et contrôle d’usure.</p>
+        </article>
+
+        <article class="detail-card reveal delay-1">
+          <h2>Révision & vidange</h2>
+          <p>Forfaits d’entretien, remplacement des filtres, contrôle sécurité et entretien constructeur.</p>
+        </article>
+
+        <article class="detail-card reveal delay-2">
+          <h2>Freinage</h2>
+          <p>Vérification des plaquettes, disques, liquide de frein et diagnostic du système de freinage.</p>
+        </article>
+
+        <article class="detail-card reveal">
+          <h2>Batterie</h2>
+          <p>Test de charge, remplacement batterie, contrôle alternateur et système de démarrage.</p>
+        </article>
+
+        <article class="detail-card reveal delay-1">
+          <h2>Climatisation</h2>
+          <p>Recharge, nettoyage, entretien du circuit et détection des anomalies de fonctionnement.</p>
+        </article>
+
+        <article class="detail-card reveal delay-2">
+          <h2>Diagnostic électronique</h2>
+          <p>Lecture des codes défauts, interprétation des alertes et préparation à l’intervention atelier.</p>
+        </article>
+      </div>
+
+      <div class="container center-top">
+        <a href="reservation.html" class="btn btn-dark">Accéder à la réservation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Norauto Arles 13200</h4>
+        <p>Entretien automobile, réparation et accompagnement client moderne.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="index.html">Accueil</a>
+        <a href="reservation.html">Réservation</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chatbot" id="chatbot">
+    <div class="chatbot-header">
+      <div>
+        <strong>Assistant Norauto Arles</strong>
+        <p>Réservation assistée</p>
+      </div>
+      <button class="chat-close" id="closeChat">×</button>
+    </div>
+    <div class="chatbot-body" id="chatBody">
+      <div class="bot-message">Bonjour 👋 Quel service vous intéresse ?</div>
+      <div class="chat-options">
+        <button class="chat-option" data-choice="Pneus">Pneus</button>
+        <button class="chat-option" data-choice="Révision">Révision</button>
+        <button class="chat-option" data-choice="Freinage">Freinage</button>
+        <button class="chat-option" data-choice="Batterie">Batterie</button>
+      </div>
+    </div>
+    <div class="chatbot-footer">
+      <a id="assistanceLink" class="btn btn-primary wide" href="contact.html">Parler à l’assistance</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
