@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Réservation | Norauto Arles 13200</title>
+  <meta name="description" content="Réservez votre entretien chez Norauto Arles 13200 avec assistance chatbot." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="header glass">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <span class="brand-main">Norauto</span>
+        <span class="brand-sub">Arles 13200</span>
+      </a>
+
+      <nav class="navbar">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="reservation.html" class="active">Réservation</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <button class="btn btn-primary open-chat">Ouvrir l’assistant</button>
+    </div>
+  </header>
+
+  <main class="inner-page">
+    <section class="page-hero small-hero">
+      <div class="container reveal">
+        <span class="eyebrow">Réservation assistée</span>
+        <h1>Préparez votre rendez-vous avec le chatbot</h1>
+        <p>L’assistant guide le client, collecte sa demande et facilite la mise en relation avec l’équipe.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container reservation-layout">
+        <div class="reservation-card reveal">
+          <h2>Comment cela fonctionne ?</h2>
+          <ol class="steps">
+            <li>Le client clique sur “Prendre rendez-vous”.</li>
+            <li>Le chatbot demande le service souhaité.</li>
+            <li>Le client précise son besoin.</li>
+            <li>Le système l’oriente vers l’assistance.</li>
+          </ol>
+          <button class="btn btn-primary open-chat">Lancer la conversation</button>
+        </div>
+
+        <div class="reservation-card accent reveal delay-1">
+          <h2>Objectif UX</h2>
+          <p>
+            Remplacer un formulaire froid par une interaction plus fluide, plus rassurante
+            et plus engageante, tout en gardant un rendu professionnel.
+          </p>
+          <a href="contact.html" class="btn btn-light">Voir la page contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Norauto Arles 13200</h4>
+        <p>Réservation moderne, prise de contact assistée et design premium.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chatbot" id="chatbot">
+    <div class="chatbot-header">
+      <div>
+        <strong>Assistant Norauto Arles</strong>
+        <p>Réservation assistée</p>
+      </div>
+      <button class="chat-close" id="closeChat">×</button>
+    </div>
+
+    <div class="chatbot-body" id="chatBody">
+      <div class="bot-message">Bonjour 👋 Je vais vous aider à préparer votre rendez-vous.</div>
+      <div class="bot-message">Choisissez votre besoin principal :</div>
+
+      <div class="chat-options">
+        <button class="chat-option" data-choice="Pneus">Pneus</button>
+        <button class="chat-option" data-choice="Révision">Révision</button>
+        <button class="chat-option" data-choice="Freinage">Freinage</button>
+        <button class="chat-option" data-choice="Batterie">Batterie</button>
+        <button class="chat-option" data-choice="Climatisation">Climatisation</button>
+        <button class="chat-option" data-choice="Diagnostic">Diagnostic</button>
+      </div>
+    </div>
+
+    <div class="chatbot-footer">
+      <a id="assistanceLink" class="btn btn-primary wide" href="contact.html">Mettre en relation avec l’assistance</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
